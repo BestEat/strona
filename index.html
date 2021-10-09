@@ -1,10 +1,9 @@
 <!DOCTYPE HTML>
 <html lang="pl">
 <head>        
-    <meta name="viewport" content="height=device-height, initial-scale=1.0">
     <meta charset="utf-8">
         <title>BestEat</title>
-        <meat name="keywords" content="besteat, jedzenie, restauracje, wrocław"/>
+        <meat name="keywords" content="jedzenie, restauracje, wrocław"/>
 		  <style>
           /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -27,10 +26,12 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font: Hind;
 	vertical-align: baseline;
 }
-
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -57,54 +58,88 @@ table {
           #calosc
             {
                 width: auto;
-                height: 100vh;
+                height: auto;
                 margin-left: auto;
                 margin-right: auto;
-                background-color: #006600;
+                background-color: white;
                 margin-top: 0px;
             }
            #nazwa
             {
                 width: auto;
-                height: auto;
+                height: 100px;
                 margin-left: auto;
                 margin-right: auto;
-                background-color: #006600;
+                background-color: white;
                 text-align: center;
-                padding-top: 20vh;
-                color: white;
-                font-family: Impact;
-                font-size: 70px;
+                padding-top: 40px;
+                color: #6F94CB;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 66px;
             }
-            #wkrotce
+            #opis
               {
                 width: auto;
-                height: auto;
+                height: 200px;
                 margin-left: auto;
                 margin-right: auto;
-                background-color: #006600;
+                background-color: white;
                 text-align: center;
-                padding-top: 25vh;
-                color: white;
-                font-family: Impact;
-                font-size: 30px;
+                padding-top: 100px;
+                padding-bottom: 100px; 
+                color: #6F94CB;
+                /*font-family: Verdana;*/
+                font-family: 'Open Sans', sans-serif;
+                font-size: 22px;
+                line-height: 36px;
+                
               }
             #kontakt
               {
                 width: auto;
+                height: 100px;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: white;
+                text-align: center;
+                padding-top: 80px;
+                color: #6F94CB;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 20px;
+                line-height: 30px;
+              }
+              #screeny
+              {
                 height: auto;
                 margin-left: auto;
                 margin-right: auto;
-                background-color: #006600;
+                background-color: white;
+                width: 80%;
+                
+                
+              }
+              sklepy_tekst
+              {
+                width: auto;
+                height: 40px;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: white;
                 text-align: center;
-                padding-top: 15vh;
-                color: white;
+                padding-top: 80px;
+                color: #6F94CB;
                 font-family: serif;
-                font-size: 20px;
+                font-size: 40px;
+              }
+              sklepy_zdj
+              {
+                height: 200px;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: white;
+                padding-top: 30px;
               }
         
-             
-            
     
     
           </style>
@@ -113,19 +148,46 @@ table {
  
     <div id="calosc">
         
-        <div id="nazwa">
-        BestEat
+    <div id="nazwa">
+        <b>BestEat</b>
             
-        </div>
+    </div>
        
-        <div id="wkrotce">
-        WKRÓTCE
-        </div> 
+    <div id="opis">
+        Stworzyliśmy naszą aplikacje po to aby rozpowrzechnić dobre jedzenie.<br/>
+        W BestEat znajdziesz tylko najlepsze i najciekawsze miejsca związane <br/>
+        z gastronomią. Chcemy pomoc i ułatwić wybor miejsca do zjedznia z <br/>
+        przyjaciołmi, randki, miłego posiłuk czy po prostu wieczornego wyjścia <br/>
+        W naszej aplikacji znajdziesz wszystkie najistotniejsze informacje o <br/>
+        każdej knajpie. 
+    </div> 
+        
+    <div id="screeny">
+        <center>
+        
+            <img src="1.jpg" alt="Tu podaj tekst alternatywny" width="auto" height=460 style="padding:30px; ">
+            <img src="2.jpg" alt="Tu podaj tekst alternatywny" width="auto" height=460 style="padding:30px; ">
+            <img src="3.jpg" alt="Tu podaj tekst alternatywny" width="auto" height=460 style="padding:30px; ">
+            <img src="4.jpg" alt="Tu podaj tekst alternatywny" width="auto" height=460 style="padding:30px; ">
+        
+        </center>
+        
+        
+    </div>
+        
+        
+        <div id="sklepy_zdj">
+        <center>
+            <img src="appstore.png" alt="Tu podaj tekst alternatywny" width="auto" height=80 style="padding:80px; ">
+            <img src="appstore.png" alt="Tu podaj tekst alternatywny" width="auto" height=80 style="padding:80px; ">
+        </center>
+            
+        
+        </div>
         
      <div id="kontakt">
         
-        kontakt:
-        <br/>
+        
         besteat.wro@gmail.com
         
      </div>   
